@@ -10,7 +10,7 @@ describe User do
   it { should respond_to(:password_confirmation) }
     it { should respond_to(:remember_token) }
     it { should respond_to(:authenticate) }
-    it { should respond_to(:admin) }
+    
     it { should respond_to(:microposts) }
 
   it { should be_valid }
@@ -31,6 +31,7 @@ describe User do
   	it { should respond_to(:email) }
     it { should respond_to(:password_digest) }
     it { should respond_to(:password) }
+    it { should respond_to(:admin) }
      it { should respond_to(:microposts) }
      it { should respond_to(:feed) }
     
